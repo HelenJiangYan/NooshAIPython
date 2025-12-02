@@ -1,0 +1,3 @@
+@echo off
+echo 正在打开 Allure 报告...
+start reports\allure-report\index.html

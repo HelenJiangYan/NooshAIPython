@@ -1,0 +1,4 @@
+[32m2025-11-20 11:32:08[0m | [1mINFO    [0m | [36mconftest[0m:[36mbrowser[0m - [1m启动浏览器: chromium[0m
+[32m2025-11-20 11:32:10[0m | [1mINFO    [0m | [36mconftest[0m:[36mpage[0m - [1m创建新页面实例[0m
+[32m2025-11-20 11:32:10[0m | [1mINFO    [0m | [36mconftest[0m:[36mpage[0m - [1m关闭页面实例[0m
+[32m2025-11-20 11:32:10[0m | [1mINFO    [0m | [36mconftest[0m:[36mbrowser[0m - [1m关闭浏览器[0m

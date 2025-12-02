@@ -1,0 +1,23 @@
+# 核心测试框架 - 快速安装版本
+pytest==8.0.0
+pytest-playwright==0.4.4
+playwright==1.41.0
+pytest-xdist==3.5.0
+pytest-rerunfailures==13.0
+pytest-timeout==2.2.0
+
+# 测试报告
+pytest-html==4.1.1
+allure-pytest==2.13.2
+
+# 数据处理
+pydantic==2.6.1
+pyyaml==6.0.1
+python-dotenv==1.0.1
+faker==23.1.0
+
+# 工具库
+pillow==10.2.0
+requests==2.31.0
+loguru==0.7.2
+jsonschema==4.21.1

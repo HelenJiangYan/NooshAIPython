@@ -1,0 +1,49 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 20 11:44:45 CST 2025","Thu Nov 20 11:44:50 CST 2025","5342","tests.test_authentication","test_login","TestLogin","","","测试登录页面元素可见性","
+        测试登录页面的关键元素是否可见
+
+        验证:
+        - 用户名输入框可见
+        - 密码输入框可见
+        - 登录按钮可见且可用
+        "
+"passed","Thu Nov 20 11:41:54 CST 2025","Thu Nov 20 11:42:35 CST 2025","40634","tests.test_authentication","test_login","TestLogin","","","测试无效密码登录失败","
+        测试使用错误密码登录失败
+
+        预期: 登录失败，显示错误消息
+        "
+"passed","Thu Nov 20 11:44:04 CST 2025","Thu Nov 20 11:44:42 CST 2025","38487","tests.test_authentication","test_login","TestLogin","","","测试空用户名和密码","
+        测试用户名和密码都为空
+
+        预期: 登录失败
+        "
+"passed","Thu Nov 20 11:40:48 CST 2025","Thu Nov 20 11:41:10 CST 2025","22631","tests.test_authentication","test_login","TestLogin","","","测试成功登录 - 有效凭证","
+        测试使用有效凭据成功登录
+
+        步骤:
+        1. 导航到登录页面
+        2. 输入有效的用户名和密码
+        3. 点击登录按钮
+        4. 验证登录成功并跳转到主系统
+        "
+"passed","Thu Nov 20 11:41:11 CST 2025","Thu Nov 20 11:41:52 CST 2025","40943","tests.test_authentication","test_login","TestLogin","","","测试无效用户名登录失败","
+        测试使用无效用户名登录失败
+
+        预期: 登录失败，显示错误消息
+        "
+"passed","Thu Nov 20 11:42:38 CST 2025","Thu Nov 20 11:43:17 CST 2025","39887","tests.test_authentication","test_login","TestLogin","","","测试空用户名登录","
+        测试空用户名
+
+        预期: 登录失败
+        "
+"passed","Thu Nov 20 11:43:20 CST 2025","Thu Nov 20 11:44:01 CST 2025","41109","tests.test_authentication","test_login","TestLogin","","","测试空密码登录","
+        测试空密码
+
+        预期: 登录失败
+        "
+"passed","Thu Nov 20 11:44:51 CST 2025","Thu Nov 20 11:44:56 CST 2025","5309","tests.test_authentication","test_login","TestLogin","","","测试登录页面标题","
+        测试登录页面标题
+
+        验证页面标题包含相关关键词
+        "
+"broken","Thu Nov 20 11:32:07 CST 2025","Thu Nov 20 11:32:07 CST 2025","0","tests.test_authentication","test_login","TestLogin","","","test_login_page_elements",""

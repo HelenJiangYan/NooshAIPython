@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/Scripts/python.exe -m pip:*)",
+      "Bash(./venv/Scripts/python.exe -m pytest:*)",
+      "Bash(allure --version:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

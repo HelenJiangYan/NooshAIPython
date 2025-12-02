@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Reports and Logs
+reports/screenshots/*.png
+reports/videos/*.webm
+reports/allure-results/*
+reports/html/*
+reports/logs/*.log
+reports/traces/*.zip
+
+# Keep directory structure but ignore content
+!reports/screenshots/.gitkeep
+!reports/videos/.gitkeep
+!reports/allure-results/.gitkeep
+!reports/html/.gitkeep
+!reports/logs/.gitkeep
+!reports/traces/.gitkeep
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+*.json.bak
+system_exploration.json

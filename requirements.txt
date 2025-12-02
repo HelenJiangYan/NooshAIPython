@@ -1,0 +1,33 @@
+# 核心测试框架
+pytest>=8.0.0,<9.0.0         # pytest-playwright 需要 <9.0.0
+pytest-playwright==0.4.4
+playwright==1.41.0
+pytest-xdist==3.5.0          # 并行执行
+pytest-rerunfailures==13.0   # 失败重试
+pytest-timeout==2.2.0        # 超时控制
+
+# 测试报告
+pytest-html==4.1.1           # HTML报告
+allure-pytest>=2.15.0        # Allure报告 (需要 >=2.15.0 兼容 pytest 8.x)
+
+# AI/LLM相关
+anthropic==0.21.3            # Claude API
+openai==1.12.0               # OpenAI API (可选)
+
+# RAG相关
+langchain==0.1.10
+langchain-openai==0.0.6
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# 数据处理
+pydantic==2.6.1
+pyyaml==6.0.1
+python-dotenv==1.0.1
+faker==23.1.0                # 测试数据生成
+
+# 工具库
+pillow==10.2.0               # 截图处理
+requests==2.31.0             # HTTP请求
+loguru==0.7.2                # 日志
+jsonschema==4.21.1           # JSON验证

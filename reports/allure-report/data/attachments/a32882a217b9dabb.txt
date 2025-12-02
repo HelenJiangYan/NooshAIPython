@@ -1,0 +1,30 @@
+[32m2025-11-20 11:44:04[0m | [1mINFO    [0m | [36mconftest[0m:[36mpage[0m - [1m创建新页面实例[0m
+[32m2025-11-20 11:44:04[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mclear_session_and_navigate[0m - [1m清除浏览器会话状态...[0m
+[32m2025-11-20 11:44:04[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mclear_session_and_navigate[0m - [1m✓ 已清除所有cookies[0m
+[32m2025-11-20 11:44:04[0m | [33m[1mWARNING [0m | [36mpages.login_page[0m:[36mclear_session_and_navigate[0m - [33m[1m清除存储失败: DOMException: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.
+    at eval (eval at evaluate (:226:30), <anonymous>:1:9)
+    at UtilityScript.evaluate (<anonymous>:233:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)[0m
+[32m2025-11-20 11:44:04[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mnavigate_to_login[0m - [1m导航到登录页面[0m
+[32m2025-11-20 11:44:04[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mnavigate[0m - [1m导航到: https://nooshauth.qa2.noosh.com/login[0m
+[32m2025-11-20 11:44:07[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mwait_for_locator[0m - [1m等待 Locator 元素 (状态: visible)[0m
+[32m2025-11-20 11:44:08[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mnavigate_to_login[0m - [1m登录表单已就绪[0m
+[32m2025-11-20 11:44:08[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mhandle_cookie_consent[0m - [1m发现Cookie同意弹窗,点击接受[0m
+[32m2025-11-20 11:44:08[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mclick[0m - [1m点击元素 (Locator)[0m
+[32m2025-11-20 11:44:09[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mwait_for_locator[0m - [1m等待 Locator 元素 (状态: hidden)[0m
+[32m2025-11-20 11:44:09[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mhandle_cookie_consent[0m - [1mCookie弹窗已关闭[0m
+[32m2025-11-20 11:44:09[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mlogin[0m - [1m使用账号登录: [0m
+[32m2025-11-20 11:44:09[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mfill[0m - [1m填充 (Locator): [0m
+[32m2025-11-20 11:44:10[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mfill[0m - [1m填充 (Locator): [0m
+[32m2025-11-20 11:44:11[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mclick[0m - [1m点击元素 (Locator)[0m
+[32m2025-11-20 11:44:12[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mlogin[0m - [1m已提交登录表单，等待响应...[0m
+[32m2025-11-20 11:44:12[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m等待登录处理和页面跳转...[0m
+[32m2025-11-20 11:44:12[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m等待URL变化...[0m
+[32m2025-11-20 11:44:42[0m | [33m[1mWARNING [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [33m[1m等待URL变化超时: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x0000027332738A40>" until 'load'
+============================================================[0m
+[32m2025-11-20 11:44:42[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m当前URL: https://nooshauth.qa2.noosh.com/login[0m
+[32m2025-11-20 11:44:42[0m | [31m[1mERROR   [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [31m[1m登录失败 - 仍在登录页面: https://nooshauth.qa2.noosh.com/login[0m
+[32m2025-11-20 11:44:42[0m | [31m[1mERROR   [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [31m[1m[ERROR] 登录验证失败: 'LoginPage' object has no attribute 'ERROR_MESSAGE'[0m
+[32m2025-11-20 11:44:42[0m | [1mINFO    [0m | [36mconftest[0m:[36mpage[0m - [1m关闭页面实例[0m

@@ -1,0 +1,26 @@
+[32m2025-11-20 11:40:46[0m | [1mINFO    [0m | [36mconftest[0m:[36mbrowser[0m - [1m启动浏览器: chromium[0m
+[32m2025-11-20 11:40:48[0m | [1mINFO    [0m | [36mconftest[0m:[36mpage[0m - [1m创建新页面实例[0m
+[32m2025-11-20 11:40:48[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mnavigate_to_login[0m - [1m导航到登录页面[0m
+[32m2025-11-20 11:40:48[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mnavigate[0m - [1m导航到: https://nooshauth.qa2.noosh.com/login[0m
+[32m2025-11-20 11:40:51[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mwait_for_locator[0m - [1m等待 Locator 元素 (状态: visible)[0m
+[32m2025-11-20 11:40:54[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mnavigate_to_login[0m - [1m登录表单已就绪[0m
+[32m2025-11-20 11:40:54[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mhandle_cookie_consent[0m - [1m发现Cookie同意弹窗,点击接受[0m
+[32m2025-11-20 11:40:54[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mclick[0m - [1m点击元素 (Locator)[0m
+[32m2025-11-20 11:40:55[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mwait_for_locator[0m - [1m等待 Locator 元素 (状态: hidden)[0m
+[32m2025-11-20 11:40:55[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mhandle_cookie_consent[0m - [1mCookie弹窗已关闭[0m
+[32m2025-11-20 11:40:55[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_on_login_page[0m - [1m当前URL: https://nooshauth.qa2.noosh.com/login, 是否在登录页: True[0m
+[32m2025-11-20 11:40:55[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mlogin[0m - [1m使用账号登录: dgo1g1mgr1[0m
+[32m2025-11-20 11:40:55[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mfill[0m - [1m填充 (Locator): dgo1g1mgr1[0m
+[32m2025-11-20 11:40:57[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mfill[0m - [1m填充 (Locator): noosh123[0m
+[32m2025-11-20 11:40:58[0m | [1mINFO    [0m | [36mpages.base_page[0m:[36mclick[0m - [1m点击元素 (Locator)[0m
+[32m2025-11-20 11:40:59[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mlogin[0m - [1m已提交登录表单，等待响应...[0m
+[32m2025-11-20 11:40:59[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m等待登录处理和页面跳转...[0m
+[32m2025-11-20 11:40:59[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m等待URL变化...[0m
+[32m2025-11-20 11:41:07[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1mURL已变化,当前URL: https://nooshone.qa2.noosh.com/myDesk/task/list[0m
+[32m2025-11-20 11:41:07[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m等待页面加载完成...[0m
+[32m2025-11-20 11:41:07[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m页面加载完成(domcontentloaded)[0m
+[32m2025-11-20 11:41:07[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m登录后最终URL: https://nooshone.qa2.noosh.com/myDesk/task/list[0m
+[32m2025-11-20 11:41:07[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m[OK] 登录成功 - 已离开登录页面: https://nooshone.qa2.noosh.com/myDesk/task/list[0m
+[32m2025-11-20 11:41:07[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m尝试导航到目标页面: https://nooshchat.qa2.noosh.com[0m
+[32m2025-11-20 11:41:10[0m | [1mINFO    [0m | [36mpages.login_page[0m:[36mis_login_successful[0m - [1m导航后URL: https://nooshchat.qa2.noosh.com/workspace/dashboard[0m
+[32m2025-11-20 11:41:10[0m | [1mINFO    [0m | [36mconftest[0m:[36mpage[0m - [1m关闭页面实例[0m
