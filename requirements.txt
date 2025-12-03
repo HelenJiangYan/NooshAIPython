@@ -11,7 +11,7 @@ pytest-html==4.1.1           # HTML报告
 allure-pytest>=2.15.0        # Allure报告 (需要 >=2.15.0 兼容 pytest 8.x)
 
 # AI/LLM相关
-anthropic==0.21.3            # Claude API
+anthropic>=0.39.0            # Claude API (智能体需要最新版本)
 openai==1.12.0               # OpenAI API (可选)
 
 # RAG相关
