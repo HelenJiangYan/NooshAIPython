@@ -70,11 +70,12 @@ class PlaywrightConfig:
         "--disable-blink-features=AutomationControlled",
         "--disable-dev-shm-usage",
         "--no-sandbox",
+        "--start-maximized",  # 最大化窗口
     ]
 
     # 浏览器上下文选项
     CONTEXT_OPTIONS = {
-        "viewport": {"width": 1920, "height": 1080},
+        "no_viewport": True,  # 禁用固定viewport，让浏览器窗口自适应
         "locale": "zh-CN",
         "timezone_id": "Asia/Shanghai",
         "permissions": ["clipboard-read", "clipboard-write"],
